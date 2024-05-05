@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyasalgo.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
-    vendor/samsung/jackpotlte/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/camera.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos7885.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
@@ -65,6 +64,31 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty_interface.so \
-    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
-    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyasalgo.so \
-    vendor/samsung/jackpotlte/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so 
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyasalgo.so 
+
+#PRODUCT_COPY_FILES += \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos7885.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/hwcomposer.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos7885.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libutils-v31.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v31.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/gatekeeper.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7885.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynosgraphicbuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgraphicbuffer.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libutils-v31.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils-v31.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos7885.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/hwcomposer.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos7885.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/gatekeeper.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos7885.so \
+#    vendor/samsung/jackpotlte/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so
