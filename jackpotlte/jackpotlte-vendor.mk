@@ -53,22 +53,42 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jackpotlte/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/jackpotlte/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf 
 
-# Camera/sensors
+# Camera32
 PRODUCT_COPY_FILES += \
     vendor/samsung/jackpotlte/proprietary/vendor/firmware/setfile_2p6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2p6.bin \
     vendor/samsung/jackpotlte/proprietary/vendor/firmware/setfile_3p8sp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3p8sp.bin \
     vendor/samsung/jackpotlte/proprietary/vendor/firmware/setfile_sr846_front.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr846_front.bin \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/camera.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos7885.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_client.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libcamera_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_shim.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libgui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libremosaic_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_tuning.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so 
+
+# Camera64
+PRODUCT_COPY_FILES += \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/camera.exynos7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos7885.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgui_vendor.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/libsaiv_BeautySolutionVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsaiv_BeautySolutionVideo.so \
-    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty_interface.so \
+    vendor/samsung/jackpotlte/proprietary/vendor/lib64/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty_interface.so 
+
+# Blex.
+    vendor/samsung/jackpotlte/proprietary/vendor/lib/libALEX.so:$(TARGET_COPY_OUT_VENDOR)/lib/libALEX.so 
+
+# Sensors
+PRODUCT_COPY_FILES += \
     vendor/samsung/jackpotlte/proprietary/vendor/lib/hw/sensors.universal7885.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7885.so \
     vendor/samsung/jackpotlte/proprietary/vendor/lib64/hw/sensors.universal7885.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7885.so 
-    
 
 # Audio
 PRODUCT_COPY_FILES += \

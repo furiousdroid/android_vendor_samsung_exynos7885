@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7885B-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal7885B-common/proprietary/vendor/lib/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecl.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
-    vendor/samsung/universal7885B-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal7885B-common/proprietary/vendor/lib64/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecl.so \
     vendor/samsung/universal7885B-common/proprietary/vendor/tee/00000000-0000-0000-0000-00000000dead:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-00000000dead \
     vendor/samsung/universal7885B-common/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
@@ -39,3 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7885B-common/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
     vendor/samsung/universal7885B-common/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
     vendor/samsung/universal7885B-common/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
+
+# Camera
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal7885B-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
+    vendor/samsung/universal7885B-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
