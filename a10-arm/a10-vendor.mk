@@ -118,8 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal7885-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/a10-arm/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
-    vendor/samsung/a10-arm/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
+    vendor/samsung/a10-arm/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
+    vendor/samsung/a10-arm/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/libiwt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiwt.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper_vendor.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/libskeymaster4device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster4device.so \

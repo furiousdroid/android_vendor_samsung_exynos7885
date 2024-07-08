@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/lib/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty_interface.so \
     vendor/samsung/a20e/proprietary/vendor/lib/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyasalgo.so \
     vendor/samsung/a20e/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
+    vendor/samsung/a20e/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/camera.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/sensors.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7884B.so \
