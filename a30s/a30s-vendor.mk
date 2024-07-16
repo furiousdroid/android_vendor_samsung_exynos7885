@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30s/proprietary/vendor/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so \
     vendor/samsung/a30s/proprietary/vendor/lib/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyasalgo.so \
     vendor/samsung/a30s/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/a30s/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
+    vendor/samsung/a30s/proprietary/vendor/lib/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/camera.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/gatekeeper.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/sensors.universal7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7904.so \

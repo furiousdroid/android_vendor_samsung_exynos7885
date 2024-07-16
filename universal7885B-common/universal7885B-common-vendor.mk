@@ -7,7 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Misc
 PRODUCT_COPY_FILES += \
-    vendor/samsung/universal7885B-common/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
+    vendor/samsung/universal7885B-common/proprietary/vendor/lib/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyalsa.so \
     
 # Camera
 PRODUCT_COPY_FILES += \
