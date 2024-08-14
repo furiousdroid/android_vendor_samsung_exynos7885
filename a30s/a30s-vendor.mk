@@ -74,5 +74,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30s/proprietary/vendor/lib64/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty.arcsoft.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty_interface.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyasalgo.so \
-    vendor/samsung/a30s/proprietary/vendor/lib64/soundfx/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioroute.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so
